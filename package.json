@@ -1,0 +1,27 @@
+{
+  "name": "todayscrypto-contract",
+  "version": "1.0.0",
+  "description": "todayscrypto smart contracts",
+  "author": "dev@todayscrypto.com",
+  "license": "MIT",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "prettier": "npx prettier --write .",
+    "lint:prettier": "npx prettier --check ."
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.8",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "@nomiclabs/hardhat-truffle5": "^2.0.7",
+    "@openzeppelin/contracts": "^4.8.2",
+    "@openzeppelin/test-helpers": "^0.5.16",
+    "dotenv": "^16.0.3",
+    "eth-sig-util": "^3.0.1",
+    "ethereumjs-wallet": "^1.0.2",
+    "hardhat": "^2.13.0",
+    "keccak256": "^1.0.6",
+    "prettier": "2.8.7",
+    "web3": "^1.9.0"
+  }
+}
